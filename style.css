@@ -35,3 +35,59 @@
  .search-bar input {
   height: 30px;
  }
+
+ .phone :last-child{
+  float: right;
+}
+.phone {
+  font-size: 0.8rem;
+}
+
+.acilir-menu {
+  position: relative;
+  display: inline-block;
+}
+.menu-buton {
+  background-color: #cccccc55;
+  color: black;
+  border: 1px solid white;
+  border-radius: 5px;
+  /* padding: 10px 20px; */
+  cursor: pointer;
+}
+/* Açılır menüyü stilini ayarlayın */
+.menu-buton{
+  width: 300px;
+  height: 30px;
+  margin-top: 25px;
+  margin-left: 8rem;
+  text-align: justify;
+  font-size: 22px;
+  color: rgb(19, 19, 19);
+}
+.menu-listesi {
+  margin: 0;
+  width: 300px;
+  margin-left: 8rem;
+  display: none;
+  position: absolute;
+  background-color: #cccccc55;
+  border: 1px solid #cccccc55;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  list-style: none;
+  padding: 0;
+}
+.menu-listesi li {
+  padding: 10px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+/* Açılır menüyü görünür hale getirin hover ile */
+.acilir-menu:hover .menu-listesi {
+  display: block;
+}
+#acilirmenu{
+  width: 20px;
+  height: 20px;
+}
